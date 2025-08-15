@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Gallery</title>
+    <style>
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 2px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>💻 UltraBook Pro X15</h1>
+   <p>The perfect balance of performance, style, and portability.</p>
+
+   <h1>Product Gallery</h1>
+    <img src="images/laptop.jpg" alt="Frontview" style="width: 200px; height: 200px;">
+    <img src="images/keypad.jpg" alt="keypad View" style="width: 200px; height: 200px;">
+    <img src="images/backside.jpg" alt="backside view" style="width: 200px; height: 200px;">
+
+    <h3>Specifications</h3>
+    
+    <table>
+        <tr>
+            <th>Features</th>
+            <th>Details</th>
+        </tr>
+
+        <tr>
+            <td>Processor</td>
+            <td>Intel Core i7 12th Gen</td>
+        </tr>
+
+         <tr>
+            <td>RAM</td>
+            <td>16GB DDR5</td>
+        </tr> 
+
+         <tr>
+            <td>Storage</td>
+            <td>1TB SSD</td>
+        </tr> 
+
+         <tr>
+            <td>Display</td>
+            <td>15.6" 4K UHD</td>
+        </tr> 
+
+         <tr>
+            <td>Battery Life</td>
+            <td>12 Hours</td>
+        </tr>
+    </table>
+
+    <h3>Order Now</h3>
+
+    <form action="GET">
+        <input type="text" placeholder="Name"><br> <br>
+        <input type="email" placeholder="email"> <br> <br>
+        <input type="number" placeholder="Quantity"> <br> <br>
+
+        <label for="dropdown">Select Color:
+            <select name="nd" id="nd">
+                <option value="opt">white</option>
+                <option value="opt">black</option>
+                <option value="opt">Silver</option>
+            </select> <br> <br>
+        </label>
+
+        <button>Place order</button>
+    </form> <br>
+
+    <footer style="border-top: 2px solid black;">
+    <p>📍 Address: 123 Tech Street, Islamabad, Pakistan</p>
+    <p>📞 Phone: +92 300 1234567</p>
+    <p>✉ Email: support@ultrabookpro.com</p>
+    </footer>
+</body>
+</html>
