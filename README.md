@@ -1,2 +1,2 @@
 # Learning-HTML
-Learning HTML briefly and practice to clear my concept
+Now I'm going to learn HTML very broughtly throughout exercise. 
