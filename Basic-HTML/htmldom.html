@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+</head>
+<body>
+
+    <h2>Changing color through dom</h2>
+     <button id="btn" onclick="changeColor()">Click me!</button> <br> <br>
+
+     <button onclick="message()">Add message</button>
+     <p id="box"></p> <br> <br>
+
+     <button onclick="rmd()">Remove below message</button>
+     <p id="item">Html is not programming language</p>
+
+     <script>
+        function changeColor(){
+            document.getElementById("btn").style.background = "yellow";
+        }
+        
+        function message(){
+            document.getElementById("box").innerHTML = "<p>Hello, Ejaz Amin!</p>";
+        }
+
+        function rmd(){
+               document.getElementById("item").remove();
+        }
+        
+     </script>
+    
+</body>
+</html>
