@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head></head>
+
+<body>
+    <button onclick="hello()" id="hello">Hello</button>
+
+    <p>This is me Ejaz Amin</p>
+
+    <!--Input field in script-->
+
+    <input type="text" id="textField" placeholder="Type Something">
+    <button onclick="checkText()">Submit</button>
+
+    <script>
+        function hello(){
+            alert("Hello, Ejaz Amin")
+        }
+
+        document.getElementById("hello").innerHTML = "Ejaz";
+        let paras = document.getElementsByTagName("p");
+        paras[0].style.color = "red";
+
+        // scripting for input field
+
+        function checkText() {
+            let value = document.getElementById("textField").value;
+        if (value === ""){
+            alert("Please write something!")
+        }  else (
+            alert("Typed:" + value)
+        )      }
+    </script>
+</body>
+</html>
